@@ -1,6 +1,6 @@
 # Tropical Cyclone Statistics over the Philippine Region
 
-This project calculates and visualizes basic statistics of tropical cyclones (TCs) affecting the Philippine region using IBTrACS data and spatial analysis. It supports a research study examining TC duration, landfall characteristics, and rapid intensification across national operational domains. This repository serves as a companion to the manuscript *"Tropical Cyclone Evolution and Rapid Intensification Across Philippine Warning Domains (1979–2024),"* which is currently under review for publication.
+This project calculates and visualizes basic statistics of tropical cyclones (TCs) affecting the Philippine region using IBTrACS data and spatial analysis. It supports a research study examining TC duration, landfall characteristics, and rapid intensification across national operational domains. This repository serves as a companion to the manuscript *"Tropical Cyclone Evolution and Rapid Intensification Across Philippine Warning Domains (1979–2024),"* which is currently being prepared for publication.
 
 
 ## Objectives
@@ -10,26 +10,16 @@ This project calculates and visualizes basic statistics of tropical cyclones (TC
 - Visualize storm behavior across different operational domains (TCID, TCAD, PAR, PCW)
 - Analyze landfall characteristics (intensity, motion, and rapid intensification)
 
-## Tools and Dependencies
+## Tools and Libraries
 
-The scripts are written in Python and require the following libraries:
+This project uses Python with the following main libraries:
 
-- `pandas`
-- `geopandas`
-- `matplotlib`
-- `shapely`
-- `numpy`
-- `scipy`
-- `pyproj` (for CRS handling)
+- `pandas`, `geopandas`, `numpy` — for data handling
+- `shapely`, `pyproj` — for geospatial operations
+- `matplotlib`, `scipy` — for visualization and statistics
 
-To run the notebooks, clone the repo and set up the environment using Conda:
+To install all dependencies, see the provided [`environment.yml`](./environment.yml) file.
 
-```bash
-git clone https://github.com/baracoma/tc-statistics.git
-cd tc-statistics
-conda env create -f environment.yml
-conda activate tc-research
-```
 
 ## Data Sources
 - IBTrACS v04r01 Western Pacific Dataset
