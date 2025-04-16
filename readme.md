@@ -1,6 +1,6 @@
 # Tropical Cyclone Statistics over the Philippine Region
 
-This project calculates and visualizes basic statistics of tropical cyclones (TCs) affecting the Philippine region using IBTrACS data and spatial analysis. It supports a research study examining TC duration, landfall characteristics, and rapid intensification across national operational domains. This repository serves as a companion to the manuscript *"Tropical Cyclone Evolution and Rapid Intensification Across Philippine Warning Domains (1979–2024),"* which is currently being prepared for publication.
+This project calculates and visualizes basic statistics of tropical cyclones (TCs) affecting the Philippine region using IBTrACS data and spatial analysis. It supports a research study examining TC duration, landfall characteristics, and rapid intensification across national operational domains. This repository serves as a companion to the manuscript *"Tropical Cyclone Evolution and Rapid Intensification Across Philippine Warning Domains (1979–2024),"* which is submitted for publication.
 
 
 ## Objectives
@@ -61,7 +61,7 @@ This analysis is based on tropical cyclone track data from the IBTrACS Western P
 
 ### 5. Visualization and Output
 - Visualizations include:
-  - Spatial distribution of landfall points and grid-based intensification patterns (2° × 2°)
+  - Spatial distribution of landfall points and grid-based intensification patterns (1° × 1°)
   - Time-centered evolution of intensity, storm speed, and acceleration (t = 0 centered on landfall)
   - Latitude-dependent scatterplots with linear regressions
 - Summary statistics are exported as CSV files and figures saved as high-resolution PNGs.
