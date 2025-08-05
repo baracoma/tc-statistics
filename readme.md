@@ -1,6 +1,8 @@
 # Tropical Cyclone Statistics over the Philippine Region
 
-In this project we calculate and visualize basic statistics of Tropical Cyclones (TCs) affecting the Philippine. This repository serves as a companion to the manuscript *Characteristics and Near-Landfall Behavior of Tropical Cyclones Affecting the Philippines"* which was accepted for publication in [Tropical Cyclone Research and Review](https://www.keaipublishing.com/en/journals/tropical-cyclone-research-and-review/).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16741972.svg)](https://doi.org/10.5281/zenodo.16741972)
+
+In this project we calculate and visualize basic statistics of Tropical Cyclones (TCs) affecting the Philippine. This repository serves as a companion to the manuscript *Characteristics and Near-Landfall Behavior of Tropical Cyclones Affecting the Philippines (1979–2024)"* which was accepted for publication in [Tropical Cyclone Research and Review](https://www.keaipublishing.com/en/journals/tropical-cyclone-research-and-review/).
 
 
 ## Objectives
